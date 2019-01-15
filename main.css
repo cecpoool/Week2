@@ -1,0 +1,50 @@
+body{
+    font-size: 50px;
+    font-family: 'Creepster', cursive;
+}
+
+.maincont{
+    min-height:100vh;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    padding-top:100px;
+    padding-bottom:50px;
+}
+
+.numberinput{
+    margin:20px;
+    font-size: 50px;
+    font-family: 'Creepster', cursive;
+}
+
+.operatorInput{
+    margin:20px;
+}
+
+.button{
+    margin:20px;
+}
+
+#num1{
+    font-size: 50px;
+    font-family: 'Creepster', cursive;
+}
+#num2{
+    font-size: 50px;
+    font-family: 'Creepster', cursive;
+}
+#numAv{
+    font-size: 50px;
+    font-family: 'Creepster', cursive;
+}
+#operator-select{
+        font-size: 50px;
+        font-family: 'Creepster', cursive;
+    
+}
+.button{
+    font-size: 50px;
+    font-family: 'Creepster', cursive;
+}
+

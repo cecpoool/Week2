@@ -1,0 +1,71 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>CALC</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Creepster" rel="stylesheet">
+
+
+</head>
+
+
+<body>
+    <div class="maincont">
+        <div class="calccont">
+            <div class="numberInput" id="inputform1">
+                <label for="title">Number input</label>
+                <input type="number" id="num1" name="number1">
+            </div>
+            <div class="numberInput" id="inputform2">
+                <label for="title">Number input</label>
+                <input type="number" id="num2" name="number2">
+            </div>
+            <div class="operatorInput">
+                <label for="operator-select">Choose an operator:</label>
+
+                <select id="operator-select">
+                    <option value="">--Please choose an option--</option>
+                    <option value="+">+</option>
+                    <option value="-">-</option>
+                    <option value="/">/</option>
+                    <option value="*">*</option>
+                    <option value="%">%</option>
+                </select>
+            </div>
+
+        </div>
+        <div class="button">
+            <button id="process" onclick=submit()>SUBMIT</button>
+        </div>
+        <div class="resultcont">
+            <div class="printresult" id="printres"></div>
+        </div>
+        <div class="avcon">
+            <div class="numberInput" id="inputform3">
+                <label for="title">Submit numbers for average</label>
+                <input type="number" id="numAv" name="number2">
+                <div class="button">
+                    <button id="subnum" onclick="submit2()">SUBMIT NEW NUMBER</button>
+                </div>
+                <div class="shownumbers">
+                    <h1 id="showarray"></h1>
+                </div>
+                <div class="button">
+                    <button id="average" onclick=submit3()>AVERAGE!</button>
+                </div>
+                <div class="averageResult">
+                    <h1 id="newResultAverage"></h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="main.js">
+    </script>
+</body>
+
+</html>
